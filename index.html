@@ -1,23 +1,153 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Cognitive Ally</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cognitive Ally — Connected Intelligence</title>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Geist:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
 </head>
-
 <body>
 
-    <img src="logo.jpeg" alt="Cognitive Ally Logo" width="150">
+  <!-- NAV -->
+  <nav>
+    <a href="#" class="nav-logo">
+      <img src="logo.png" alt="Cognitive Ally"/>
+    </a>
+    <ul class="nav-center">
+      <li><a href="#services">Services</a></li>
+      <li><a href="#how">How it works</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="#" class="btn-ghost-sm">Log in</a>
+      <a href="#contact" class="btn-navy">Get started free</a>
+    </div>
+  </nav>
 
-    <h1>Cognitive Ally</h1>
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-eyebrow"><span class="eyebrow-dot"></span> Connected Intelligence for modern businesses</div>
+    <h1>The AI workspace your<br>business has been <i>waiting for</i></h1>
+    <p class="hero-sub">Machine learning, intelligent chatbots, and data analysis — all designed to help your team make smarter decisions, faster.</p>
+    <div class="hero-cta">
+      <a href="#contact" class="btn-primary">Get Cognitive Ally free →</a>
+      <a href="#services" class="btn-outline">See what we do</a>
+    </div>
+  </div>
 
-    <p>We provide AI-powered software solutions for modern businesses.</p>
+  <hr class="grad-rule"/>
 
-    <p>Our services include machine learning, chatbot development, and data analysis.</p>
+  <!-- TRUST -->
+  <div class="trust">
+    <p>Trusted by forward-thinking teams</p>
+    <div class="logos">
+      <span class="logo-pill">Acme Corp</span>
+      <span class="logo-pill">Venture Labs</span>
+      <span class="logo-pill">NovaTech</span>
+      <span class="logo-pill">Meridian</span>
+      <span class="logo-pill">Orbit Systems</span>
+    </div>
+  </div>
+  <hr class="divider"/>
 
-    <p>We help companies make smarter decisions using artificial intelligence.</p>
+  <!-- SERVICES -->
+  <div class="services" id="services">
+    <div class="section-tag">Services</div>
+    <h2>Everything you need to run<br>an AI-powered business</h2>
+    <p>End-to-end solutions that integrate seamlessly into your existing workflows.</p>
+    <div class="service-list">
+      <div class="service-row">
+        <div class="srv-name"><span class="srv-icon">🤖</span> Machine Learning</div>
+        <div class="srv-desc">Custom models trained on your data to predict outcomes, detect patterns, and automate complex decisions at scale.</div>
+        <div class="srv-tag">Core</div>
+      </div>
+      <div class="service-row">
+        <div class="srv-name"><span class="srv-icon">💬</span> Chatbot Development</div>
+        <div class="srv-desc">Conversational AI that handles customer support, lead generation, and internal workflows — 24/7.</div>
+        <div class="srv-tag">Popular</div>
+      </div>
+      <div class="service-row">
+        <div class="srv-name"><span class="srv-icon">📊</span> Data Analysis</div>
+        <div class="srv-desc">Turn raw business data into clear, actionable dashboards and insights that drive real growth.</div>
+        <div class="srv-tag">Core</div>
+      </div>
+      <div class="service-row">
+        <div class="srv-name"><span class="srv-icon">⚙️</span> AI Integration</div>
+        <div class="srv-desc">Embed AI into your existing CRMs, ERPs, and custom platforms without disrupting daily workflows.</div>
+        <div class="srv-tag">Add-on</div>
+      </div>
+      <div class="service-row">
+        <div class="srv-name"><span class="srv-icon">🔍</span> AI Consulting</div>
+        <div class="srv-desc">We audit your operations and map a clear AI roadmap tailored to your specific business goals.</div>
+        <div class="srv-tag">Strategy</div>
+      </div>
+      <div class="service-row">
+        <div class="srv-name"><span class="srv-icon">🛡️</span> Responsible AI</div>
+        <div class="srv-desc">Ethical, transparent, and compliant AI systems that build lasting trust with customers and stakeholders.</div>
+        <div class="srv-tag">Compliance</div>
+      </div>
+    </div>
+  </div>
 
-    <a href="https://www.example.com">Learn More</a>
+  <!-- HOW IT WORKS -->
+  <div class="how" id="how">
+    <div class="how-inner">
+      <div class="how-left">
+        <div class="section-tag">Process</div>
+        <h2>Simple steps, serious results</h2>
+        <p>A proven approach that takes you from idea to production-ready AI — without the complexity.</p>
+      </div>
+      <div class="steps">
+        <div class="step-row">
+          <div class="step-num">01</div>
+          <div class="step-body"><h3>Discover</h3><p>We learn your business, goals, and pain points through a structured discovery session.</p></div>
+        </div>
+        <div class="step-row">
+          <div class="step-num">02</div>
+          <div class="step-body"><h3>Design</h3><p>Our team proposes a tailored AI architecture and solution plan with clear milestones.</p></div>
+        </div>
+        <div class="step-row">
+          <div class="step-num">03</div>
+          <div class="step-body"><h3>Build</h3><p>We develop, test, and refine your solution in close collaboration with your team.</p></div>
+        </div>
+        <div class="step-row">
+          <div class="step-num">04</div>
+          <div class="step-body"><h3>Deploy & Grow</h3><p>We launch, monitor, and continuously improve your AI as your business scales.</p></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <div class="stats-wrap">
+    <div class="stats-bar">
+      <div class="stat-cell"><div class="stat-num">200+</div><div class="stat-label">Clients served worldwide</div></div>
+      <div class="stat-cell"><div class="stat-num">98%</div><div class="stat-label">Client satisfaction rate</div></div>
+      <div class="stat-cell"><div class="stat-num">5×</div><div class="stat-label">Average efficiency gain</div></div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-section" id="contact">
+    <h2>Start building smarter,<br><i>today</i></h2>
+    <p>Book a free consultation with our team. No commitment — just a conversation about what AI can do for your business.</p>
+    <div class="hero-cta">
+      <a href="mailto:hello@cognitiveally.com" class="btn-primary">Book a free consultation →</a>
+      <a href="#services" class="btn-outline">Explore services</a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <img src="logo.png" alt="Cognitive Ally"/>
+    <div class="footer-links">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Contact</a>
+    </div>
+    <p>© 2026 Cognitive Ally, Inc.</p>
+  </footer>
 
 </body>
 </html>
